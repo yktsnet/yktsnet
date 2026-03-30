@@ -1,6 +1,6 @@
 ## Hi 👋
 
-Builder / Operator
+### Builder / Operator
 
 I design and run small-to-medium systems end-to-end —  
 from hardware and sensors through backend services to the interfaces real people use every day.
