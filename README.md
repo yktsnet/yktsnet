@@ -13,13 +13,6 @@ Hardware work and software work aren't separate — the problem gets followed wh
 **Surface:** Astro · React · Cloudflare Pages  
 Self-hosted on Hetzner VPS, managed with NixOS + home-manager.
 
-<p align="left">
-  <a href="https://ykts.net/">Portfolio</a> ·
-  <a href="https://github.com/yktsnet/nfc-attendance-kit">NFC Attendance</a> ·
-  <a href="https://github.com/yktsnet/cat-feed-tracker">Cat Feed Tracker</a> ·
-  <a href="https://github.com/yktsnet/portfolio-astro">Portfolio Repo</a>
-</p>
-
 <details>
 <summary>🇯🇵 日本語</summary>
 
