@@ -1,9 +1,16 @@
-## Hi👏
+## Hi 👋
 
 Builder / Operator
 
-I build small systems that connect field operations, software, and infrastructure.
-From sensors and scripts to interfaces and deployment, I focus on making systems usable in real workflows.
+I design and run small-to-medium systems end-to-end —  
+from hardware and sensors through backend services to the interfaces real people use every day.
+
+My focus is on the full stack of a working system:  
+not just writing code, but deploying it, operating it, and keeping it useful over time.  
+I don't separate "hardware work" from "software work" — I follow the problem wherever it goes.
+
+Current stack: Python · NixOS · FastAPI · PostgreSQL · MicroPython · Astro · Cloudflare Pages  
+Self-hosted on Hetzner VPS, managed with NixOS + home-manager.
 
 <p align="left">
   <a href="https://ykts.net/">Portfolio</a> ·
@@ -15,10 +22,12 @@ From sensors and scripts to interfaces and deployment, I focus on making systems
 <details>
 <summary>🇯🇵 日本語</summary>
 
-現場で発生する信号や作業を、ソフトウェアやインフラにつないで、小さくても実際に使える仕組みにしていくことを軸にしています。
+現場で発生する信号や作業を、ソフトウェアとインフラにつなぎ、実際に使い続けられる仕組みにすることを軸にしています。
 
-個人開発では、勤怠管理、給餌記録、バックテスト基盤、公開用ダッシュボードなどを作っています。
+ハードウェア、バックエンド、画面、運用を分けて考えず、  
+「人が使い続けられる形まで」を設計の範囲と捉えています。
 
-ハードウェア、バックエンド、画面、運用を分けて考えず、人が使い続けられる形まで含めて設計するのが好きです。
+個人開発では、勤怠管理・給餌記録・自動売買基盤・バックテストコンソールを稼働中。  
+Hetzner VPS 上で NixOS + home-manager により自己管理しています。
 
 </details>
