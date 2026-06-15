@@ -9,6 +9,8 @@ jobs:
   update-card:
     name: LAPRAS Card
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: kawamataryo/lapras-card-readme@main
         with:
