@@ -15,6 +15,8 @@
 </p>
 
 <!--START_SECTION:lapras-card-->
+<p ><a href="https://lapras.com/public/ykts" target="_blank" rel="noopener noreferrer"><img alt="yktsのLAPRASでのスコアは次の通りです: エンジニアリング: 3.4 / 5.0, ビジネス: 3.57 / 5.0, インフルエンス: 2.88 / 5.0." src="https://lapras-card-generator.vercel.app/api/svg?e=3.4&b=3.57&i=2.88&b1=%230a192f&b2=%230E5593&i1=%23112240&i2=%2364ffda&l=ja" width="400" ></a>  
+Last Updated on 6/15/2026, 11:56:56 AM</p>
 <!--END_SECTION:lapras-card-->
 
 
