@@ -16,6 +16,7 @@ jobs:
         with:
           SHARE_ID: "ykts"
           BACKGROUND_FIRST: "#0a192f"
-          BACKGROUND_END: "#112240"
+          BACKGROUND_SECOND: "#112240"
           ICON_FIRST: "#112240"
           ICON_SECOND: "#64ffda"
+          IS_CENTER: "true"
