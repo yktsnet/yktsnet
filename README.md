@@ -14,3 +14,9 @@
   </samp>
 </p>
 
+<p align="center">
+  <a href="https://lapras.com/public/ykts">
+    <img src="https://lapras.com/public/ykts.svg?b1=0a192f&b2=112240&e=64ffda&b=64ffda&i=64ffda&t=ccd6f6" width="400" alt="LAPRAS" />
+  </a>
+</p>
+
