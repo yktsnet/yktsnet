@@ -20,3 +20,4 @@ jobs:
           ICON_FIRST: "#112240"
           ICON_SECOND: "#64ffda"
           IS_CENTER: "true"
+          UPDATE_TIME: "false"
