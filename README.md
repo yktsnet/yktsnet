@@ -13,6 +13,7 @@
 <img src="https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React">
 <img src="https://img.shields.io/badge/-Vue-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white" alt="Vue">
 <img src="https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI">
+<img src="https://img.shields.io/badge/-Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" alt="Laravel">
 <img src="https://img.shields.io/badge/-LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangGraph">
 <img src="https://img.shields.io/badge/-Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Gemini">
 <img src="https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL">
@@ -37,7 +38,7 @@
 |---|---|
 | [order-system-migration](https://github.com/yktsnet/order-system-migration) | WinForms → .NET 8 Web API + React。LangGraph AI エージェントを統合 |
 | [attendance-system-migration](https://github.com/yktsnet/attendance-system-migration) | WebForms → .NET 8 + React。SignalR でリアルタイム打刻監視を実装 |
-| [order-system-rag](https://github.com/yktsnet/order-system-rag) | 帳票 PDF を構造化し、質問の性質で Text-to-SQL / RAG へ自動振り分け |
+| [order-system-rag](https://github.com/yktsnet/order-system-rag) | 帳票 PDF を Azure AI Document Intelligence で構造化し、質問の性質で Text-to-SQL / RAG へ自動振り分け |
 
 ### How I build
 
