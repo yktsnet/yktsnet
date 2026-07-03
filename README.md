@@ -8,7 +8,7 @@
 
 ### Works
 
-実運用しているもの:
+#### 実運用しているもの:
 
 | | 概要 |
 |---|---|
@@ -16,7 +16,7 @@
 | [cat-feed-tracker](https://github.com/yktsnet/cat-feed-tracker) | 給餌棚の開閉検知 → LINE 通知。Pico W + FastAPI + PostgreSQL |
 | [training-scheduler](https://github.com/yktsnet/training-scheduler) | 新人の手応えを共有する研修支援ツール。Go + Vue 単一バイナリ、SQLite のみ |
 
-モダナイゼーション + AI 統合（プロセスを提示する実証サンプル）:
+#### モダナイゼーション + AI 統合（プロセスを提示する実証サンプル）:
 
 | | 概要 |
 |---|---|
