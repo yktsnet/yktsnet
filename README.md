@@ -10,15 +10,19 @@
 
 #### 実運用しているもの:
 
-- **[nfc-attendance-kit](https://github.com/yktsnet/nfc-attendance-kit)** — NFC 打刻 → スプレッドシート自動集計。実顧客で稼働中（月次工数 −5h）。pip 依存ゼロで Raspberry Pi 2 でも動く
-- **[cat-feed-tracker](https://github.com/yktsnet/cat-feed-tracker)** — 給餌棚の開閉検知 → LINE 通知。Pico W + FastAPI + PostgreSQL
-- **[training-scheduler](https://github.com/yktsnet/training-scheduler)** — 新人の手応えを共有する研修支援ツール。Go + Vue 単一バイナリ、SQLite のみ
+<p><a href="https://github.com/yktsnet/nfc-attendance-kit"><strong>nfc-attendance-kit</strong></a> — NFC 打刻 → スプレッドシート自動集計。実顧客で稼働中（月次工数 −5h）。pip 依存ゼロで Raspberry Pi 2 でも動く</p>
+
+<p><a href="https://github.com/yktsnet/cat-feed-tracker"><strong>cat-feed-tracker</strong></a> — 給餌棚の開閉検知 → LINE 通知。Pico W + FastAPI + PostgreSQL</p>
+
+<p><a href="https://github.com/yktsnet/training-scheduler"><strong>training-scheduler</strong></a> — 新人の手応えを共有する研修支援ツール。Go + Vue 単一バイナリ、SQLite のみ</p>
 
 #### モダナイゼーション + AI 統合（プロセスを提示する実証サンプル）:
 
-- **[order-system-migration](https://github.com/yktsnet/order-system-migration)** — WinForms → .NET 8 Web API + React。LangGraph AI エージェントを統合
-- **[attendance-system-migration](https://github.com/yktsnet/attendance-system-migration)** — WebForms → .NET 8 + React。SignalR でリアルタイム打刻監視を実装
-- **[order-system-rag](https://github.com/yktsnet/order-system-rag)** — 帳票 PDF を Azure AI Document Intelligence で構造化し、質問の性質で Text-to-SQL / RAG へ自動振り分け
+<p><a href="https://github.com/yktsnet/order-system-migration"><strong>order-system-migration</strong></a> — WinForms → .NET 8 Web API + React。LangGraph AI エージェントを統合</p>
+
+<p><a href="https://github.com/yktsnet/attendance-system-migration"><strong>attendance-system-migration</strong></a> — WebForms → .NET 8 + React。SignalR でリアルタイム打刻監視を実装</p>
+
+<p><a href="https://github.com/yktsnet/order-system-rag"><strong>order-system-rag</strong></a> — 帳票 PDF を Azure AI Document Intelligence で構造化し、質問の性質で Text-to-SQL / RAG へ自動振り分け</p>
 
 ### How I build
 
