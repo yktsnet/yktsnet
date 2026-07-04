@@ -8,21 +8,40 @@
 
 ### Works
 
-#### 実運用しているもの:
+#### 実運用しているもの
 
-<p><a href="https://github.com/yktsnet/nfc-attendance-kit"><strong>nfc-attendance-kit</strong></a> — NFC 打刻 → スプレッドシート自動集計。実顧客で稼働中（月次工数 −5h）。pip 依存ゼロで Raspberry Pi 2 でも動く</p>
+<table>
+  <tr>
+    <td><a href="https://github.com/yktsnet/nfc-attendance-kit"><b>nfc-attendance-kit</b></a></td>
+    <td>NFC 打刻 → スプレッドシート自動集計。実顧客で稼働中（月次工数 −5h）。pip 依存ゼロで Raspberry Pi 2 でも動く</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/yktsnet/cat-feed-tracker"><b>cat-feed-tracker</b></a></td>
+    <td>給餌棚の開閉検知 → LINE 通知。Pico W + FastAPI + PostgreSQL</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/yktsnet/training-scheduler"><b>training-scheduler</b></a></td>
+    <td>新人の手応えを共有する研修支援ツール。Go + Vue 単一バイナリ、SQLite のみ</td>
+  </tr>
+</table>
 
-<p><a href="https://github.com/yktsnet/cat-feed-tracker"><strong>cat-feed-tracker</strong></a> — 給餌棚の開閉検知 → LINE 通知。Pico W + FastAPI + PostgreSQL</p>
+#### モダナイゼーション + AI 統合（プロセスを提示する実証サンプル）
 
-<p><a href="https://github.com/yktsnet/training-scheduler"><strong>training-scheduler</strong></a> — 新人の手応えを共有する研修支援ツール。Go + Vue 単一バイナリ、SQLite のみ</p>
+<table>
+  <tr>
+    <td><a href="https://github.com/yktsnet/order-system-migration"><b>order-system-migration</b></a></td>
+    <td>WinForms → .NET 8 Web API + React。LangGraph AI エージェントを統合</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/yktsnet/attendance-system-migration"><b>attendance-system-migration</b></a></td>
+    <td>WebForms → .NET 8 + React。SignalR でリアルタイム打刻監視を実装</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/yktsnet/order-system-rag"><b>order-system-rag</b></a></td>
+    <td>帳票 PDF を Azure AI Document Intelligence で構造化し、質問の性質で Text-to-SQL / RAG へ自動振り分け</td>
+  </tr>
+</table>
 
-#### モダナイゼーション + AI 統合（プロセスを提示する実証サンプル）:
-
-<p><a href="https://github.com/yktsnet/order-system-migration"><strong>order-system-migration</strong></a> — WinForms → .NET 8 Web API + React。LangGraph AI エージェントを統合</p>
-
-<p><a href="https://github.com/yktsnet/attendance-system-migration"><strong>attendance-system-migration</strong></a> — WebForms → .NET 8 + React。SignalR でリアルタイム打刻監視を実装</p>
-
-<p><a href="https://github.com/yktsnet/order-system-rag"><strong>order-system-rag</strong></a> — 帳票 PDF を Azure AI Document Intelligence で構造化し、質問の性質で Text-to-SQL / RAG へ自動振り分け</p>
 
 ### How I build
 
