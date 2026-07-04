@@ -10,7 +10,7 @@
 
 #### 実運用しているもの:
 
-| | 概要 |
+| | |
 |---|---|
 | [nfc-attendance-kit](https://github.com/yktsnet/nfc-attendance-kit) | NFC 打刻 → スプレッドシート自動集計。実顧客で稼働中（月次工数 −5h）。pip 依存ゼロで Raspberry Pi 2 でも動く |
 | [cat-feed-tracker](https://github.com/yktsnet/cat-feed-tracker) | 給餌棚の開閉検知 → LINE 通知。Pico W + FastAPI + PostgreSQL |
@@ -18,7 +18,7 @@
 
 #### モダナイゼーション + AI 統合（プロセスを提示する実証サンプル）:
 
-| | 概要 |
+| | |
 |---|---|
 | [order-system-migration](https://github.com/yktsnet/order-system-migration) | WinForms → .NET 8 Web API + React。LangGraph AI エージェントを統合 |
 | [attendance-system-migration](https://github.com/yktsnet/attendance-system-migration) | WebForms → .NET 8 + React。SignalR でリアルタイム打刻監視を実装 |
