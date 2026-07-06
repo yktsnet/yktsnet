@@ -30,7 +30,7 @@
 <table>
   <tr>
     <td><a href="https://github.com/yktsnet/folio-agent"><b>folio-agent</b></a></td>
-    <td>ポートフォリオ受付チャットボット（npm公開）。Cloudflare Workers + LangGraph.js + Gemini。ビルド時に全知識を同梱するCAG方式で低コスト・ゼロRAG構成を実現</td>
+    <td>静的サイト用チャット（npm公開）。ビルド時全知識同梱のCAG方式。Cloudflare Workers + LangGraph.js</td>
   </tr>
 </table>
 
