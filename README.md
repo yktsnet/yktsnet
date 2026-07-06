@@ -25,12 +25,12 @@
   </tr>
 </table>
 
-#### 開発したライブラリ・ツール
+#### ライブラリ・ツール
 
 <table>
   <tr>
     <td><a href="https://github.com/yktsnet/folio-agent"><b>folio-agent</b></a></td>
-    <td>静的サイト用チャット（npm公開）。ビルド時全知識同梱のCAG方式。Cloudflare Workers + LangGraph.js</td>
+    <td>静的サイト用ポートフォリオチャット（npm公開）。ビルド時に知識を全同梱するCAG方式。Cloudflare Workers + LangGraph.js</td>
   </tr>
 </table>
 
