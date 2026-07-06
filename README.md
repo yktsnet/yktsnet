@@ -25,7 +25,16 @@
   </tr>
 </table>
 
-#### モダナイゼーション + AI 統合（プロセスを提示する実証サンプル）
+#### 開発したライブラリ・ツール
+
+<table>
+  <tr>
+    <td><a href="https://github.com/yktsnet/folio-agent"><b>folio-agent</b></a></td>
+    <td>ポートフォリオ受付チャットボット（npm公開）。Cloudflare Workers + LangGraph.js + Gemini。ビルド時に全知識を同梱するCAG方式で低コスト・ゼロRAG構成を実現</td>
+  </tr>
+</table>
+
+#### モダナイゼーション + AI 統合
 
 <table>
   <tr>
