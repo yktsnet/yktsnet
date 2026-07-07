@@ -54,7 +54,9 @@
 
 ### How I build
 
-設計（対話型 AI）・実装（自律型 AI）・検証（人間のマージ）を分けた Issue 駆動で開発している。危険な操作は運用ルールではなく設定で遮断する。仕組みは [dotfiles-public](https://github.com/yktsnet/dotfiles-public) に、過程は各リポジトリの Issue と PR にそのまま残している。
+設計（対話型 AI）・実装（自律型 AI）・検証（人間のマージ）を分けた Issue 駆動で開発している。危険な操作は運用ルールではなく `.claude/settings.json` の deny で遮断し、実行環境は Nix Flakes で macOS / Linux を宣言的に統一して環境差によるエージェントのエラーを防ぎ、その同一性を CI で検証し続けている。運用知識は起動条件を宣言した skill としてコミットし、人間がファイルを手渡しする暗黙知に依存させない。
+
+この仕組み全体を [dotfiles-public](https://github.com/yktsnet/dotfiles-public)（AI エージェント協働開発のための Nix ワークスペース）として公開しており、汎用 skill は Claude Code の plugin marketplace として導入できる。過程は各リポジトリの Issue と PR にそのまま残している。
 
 ---
 
