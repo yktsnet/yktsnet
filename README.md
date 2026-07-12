@@ -16,6 +16,10 @@
     <td>NFC 打刻 → スプレッドシート自動集計。実顧客で稼働中（月次工数 −5h）。pip 依存ゼロで Raspberry Pi 2 でも動く</td>
   </tr>
   <tr>
+    <td><a href="https://github.com/yktsnet/excel-kanri"><b>excel-kanri</b></a></td>
+    <td>既存の Excel 帳票運用を壊さずに Web フォーム生成・PDF 自動変換・全文検索を後付け。実顧客で稼働中。clone して使う汎用モジュール群 + FastAPI/React リファレンス実装</td>
+  </tr>
+  <tr>
     <td><a href="https://github.com/yktsnet/cat-feed-tracker"><b>cat-feed-tracker</b></a></td>
     <td>給餌棚の開閉検知 → LINE 通知。Pico W + FastAPI + PostgreSQL</td>
   </tr>
@@ -34,7 +38,7 @@
   </tr>
 </table>
 
-#### モダナイゼーション + AI 統合
+#### レガシー移行 × AI（技術デモ）
 
 <table>
   <tr>
