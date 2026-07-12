@@ -13,19 +13,19 @@
 <table>
   <tr>
     <td><a href="https://github.com/yktsnet/nfc-attendance-kit"><b>nfc-attendance-kit</b></a></td>
-    <td>NFC 打刻 → スプレッドシート自動集計。実顧客で稼働中（月次工数 −5h）。pip 依存ゼロで Raspberry Pi 2 でも動く</td>
+    <td>NFC 打刻をスプレッドシートに自動集計、実顧客で稼働中（月次工数 −5h）</td>
   </tr>
   <tr>
     <td><a href="https://github.com/yktsnet/excel-kanri"><b>excel-kanri</b></a></td>
-    <td>既存の Excel 帳票運用を壊さずに Web フォーム生成・PDF 自動変換・全文検索を後付け。実顧客で稼働中。clone して使う汎用モジュール群 + FastAPI/React リファレンス実装</td>
+    <td>既存の Excel 帳票運用に Web フォーム・PDF 変換・全文検索を後付け、実顧客で稼働中</td>
   </tr>
   <tr>
     <td><a href="https://github.com/yktsnet/cat-feed-tracker"><b>cat-feed-tracker</b></a></td>
-    <td>給餌棚の開閉検知 → LINE 通知。Pico W + FastAPI + PostgreSQL</td>
+    <td>給餌棚の開閉を検知して LINE 通知、Pico W + FastAPI</td>
   </tr>
   <tr>
     <td><a href="https://github.com/yktsnet/training-scheduler"><b>training-scheduler</b></a></td>
-    <td>新人の手応えを共有する研修支援ツール。Go + Vue 単一バイナリ、SQLite のみ</td>
+    <td>新人の主観的な手応えを共有する研修支援ツール、Go + Vue 単一バイナリ</td>
   </tr>
 </table>
 
@@ -34,11 +34,11 @@
 <table>
   <tr>
     <td><a href="https://github.com/yktsnet/folio-agent"><b>folio-agent</b></a></td>
-    <td>静的サイト用ポートフォリオチャット（npm公開）。ビルド時に知識を全同梱するCAG方式。Cloudflare Workers + LangGraph.js</td>
+    <td>知識を全同梱する CAG 方式のポートフォリオチャット、npm 公開・Cloudflare Workers</td>
   </tr>
   <tr>
     <td><a href="https://github.com/yktsnet/bt-dynamic"><b>bt-dynamic</b></a></td>
-    <td>相場を9セル（トレンド強度×ボラティリティ）に分類し動的にレジーム切替するバックテストコア。PyPI配布で、自身の本番トレードシステムがそのまま組み込んで使用している</td>
+    <td>相場を9セルでレジーム切替するバックテストコア、PyPI 配布・本番トレードで使用中</td>
   </tr>
 </table>
 
@@ -47,15 +47,15 @@
 <table>
   <tr>
     <td><a href="https://github.com/yktsnet/order-system-migration"><b>order-system-migration</b></a></td>
-    <td>WinForms → .NET 8 Web API + React。LangGraph AI エージェントを統合</td>
+    <td>WinForms を .NET 10 Web API + React へ移行し、AI エージェントを統合</td>
   </tr>
   <tr>
     <td><a href="https://github.com/yktsnet/attendance-system-migration"><b>attendance-system-migration</b></a></td>
-    <td>WebForms → .NET 8 + React。SignalR でリアルタイム打刻監視を実装</td>
+    <td>WebForms を .NET 10 + React へ移行し、SignalR でリアルタイム監視を実装</td>
   </tr>
   <tr>
     <td><a href="https://github.com/yktsnet/order-system-rag"><b>order-system-rag</b></a></td>
-    <td>帳票 PDF を Azure AI Document Intelligence で構造化し、質問の性質で Text-to-SQL / RAG へ自動振り分け</td>
+    <td>帳票 PDF を構造化し、質問の性質で Text-to-SQL / RAG を自動振り分け</td>
   </tr>
 </table>
 
