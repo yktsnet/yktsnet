@@ -36,6 +36,10 @@
     <td><a href="https://github.com/yktsnet/folio-agent"><b>folio-agent</b></a></td>
     <td>静的サイト用ポートフォリオチャット（npm公開）。ビルド時に知識を全同梱するCAG方式。Cloudflare Workers + LangGraph.js</td>
   </tr>
+  <tr>
+    <td><a href="https://github.com/yktsnet/bt-dynamic"><b>bt-dynamic</b></a></td>
+    <td>相場を9セル（トレンド強度×ボラティリティ）に分類し動的にレジーム切替するバックテストコア。PyPI配布で、自身の本番トレードシステムがそのまま組み込んで使用している</td>
+  </tr>
 </table>
 
 #### レガシー移行 × AI（技術デモ）
