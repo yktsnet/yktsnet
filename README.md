@@ -8,7 +8,7 @@
 
 ### Works
 
-#### 実運用しているもの
+#### Production
 
 <table>
   <tr>
@@ -29,9 +29,7 @@
   </tr>
 </table>
 
-#### 自動売買（検証と実弾を同一コードで運転）
-
-バックテストで検証した判定コードを、そのまま実弾の無人運転に接続している。研究と本番の乖離を仕組みで塞ぐ2リポ構成。
+#### Trading Infrastructure
 
 <table>
   <tr>
@@ -44,7 +42,7 @@
   </tr>
 </table>
 
-#### ライブラリ・ツール
+#### Libraries & Tools
 
 <table>
   <tr>
@@ -53,7 +51,7 @@
   </tr>
 </table>
 
-#### レガシー移行 × AI（技術デモ）
+#### Legacy Migration & AI
 
 <table>
   <tr>
