@@ -29,16 +29,27 @@
   </tr>
 </table>
 
+#### 自動売買（検証と実弾を同一コードで運転）
+
+バックテストで検証した判定コードを、そのまま実弾の無人運転に接続している。研究と本番の乖離を仕組みで塞ぐ2リポ構成。
+
+<table>
+  <tr>
+    <td><a href="https://github.com/yktsnet/bt-dynamic"><b>bt-dynamic</b></a></td>
+    <td>相場を9セル（トレンド強度×ボラティリティ）でレジーム切替するバックテストコア、PyPI 配布</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/yktsnet/live-dynamic"><b>live-dynamic</b></a></td>
+    <td>検証済み戦略を同一 config のまま systemd timer で無人実弾運転する実行層。冪等な発注ゲート・OCO・キルスイッチの安全設計を参照実装として公開</td>
+  </tr>
+</table>
+
 #### ライブラリ・ツール
 
 <table>
   <tr>
     <td><a href="https://github.com/yktsnet/folio-agent"><b>folio-agent</b></a></td>
     <td>知識を全同梱する CAG 方式のポートフォリオチャット、npm 公開・Cloudflare Workers</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/yktsnet/bt-dynamic"><b>bt-dynamic</b></a></td>
-    <td>相場を9セルでレジーム切替するバックテストコア、PyPI 配布・本番トレードで使用中</td>
   </tr>
 </table>
 
