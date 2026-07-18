@@ -68,6 +68,15 @@
   </tr>
 </table>
 
+#### Experiments
+
+<table>
+  <tr>
+    <td><a href="https://github.com/yktsnet/wiki-guessur"><b>wiki-guessur</b></a></td>
+    <td>定義文を消した Wikipedia 記事の同定ベンチマーク。数式 / GBDT / LLM 再判定の4手法 × 5シードで MRR を実測</td>
+  </tr>
+</table>
+
 
 ### How I build
 
