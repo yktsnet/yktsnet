@@ -80,9 +80,11 @@
 
 ### How I build
 
-開発は2フェーズで回している。立ち上げ期は仕様書（PLAN.md / JUDGE.md）が開発を駆動し、リリース時に README へ昇華して役目を終える。保守期は駆動文書を保証台帳（guarantees.md）へ交代させ、「何が壊れてはいけないか」だけを人間が裁可し、テストの実装と執行は AI と CI に任せる（Guarantee-Driven Development）。この実行機構が、設計（対話型 AI）・実装（自律型 AI）・裁可と検証（人間のマージ）を分けた Issue 駆動で、危険な操作は運用ルールではなく `.claude/settings.json` の deny で遮断し、実行環境は Nix Flakes で宣言的に統一して CI で検証し続けている。
+開発は2フェーズで回している。立ち上げ期は仕様書（PLAN.md / JUDGE.md）が開発を駆動し、リリース時に README へ昇華して役目を終える。保守期は駆動文書を保証台帳（guarantees.md）へ交代させ、「何が壊れてはいけないか」だけを人間が裁可し、テストの実装と執行は AI と CI に任せる（Guarantee-Driven Development）。
 
-この仕組み全体を [dotfiles-public](https://github.com/yktsnet/dotfiles-public)（AI エージェント協働開発の2フェーズライフサイクルと、それを支える Nix ワークスペース）として公開しており、汎用 skill は Claude Code の plugin marketplace として導入できる。過程は各リポジトリの Issue と PR にそのまま残している。
+実行機構は、設計（対話型 AI）・実装（自律型 AI）・裁可と検証（人間のマージ）を分けた Issue 駆動。危険な操作は運用ルールではなく `.claude/settings.json` の deny で遮断し、実行環境は Nix Flakes で宣言的に統一して CI で検証し続けている。
+
+この仕組み全体を [dotfiles-public](https://github.com/yktsnet/dotfiles-public) として公開しており、汎用 skill は Claude Code の plugin marketplace として導入できる。過程は各リポジトリの Issue と PR にそのまま残している。
 
 ---
 
