@@ -33,6 +33,10 @@
 
 <table>
   <tr>
+    <td><a href="https://github.com/yktsnet/bt-lab"><b>bt-lab</b></a></td>
+    <td>複数戦略候補を横断検証し、ドローダウンや Recovery Factor で自動選抜する8段パイプライン</td>
+  </tr>
+  <tr>
     <td><a href="https://github.com/yktsnet/bt-dynamic"><b>bt-dynamic</b></a></td>
     <td>相場を9セル（トレンド強度×ボラティリティ）でレジーム切替するバックテストコア、PyPI 配布</td>
   </tr>
