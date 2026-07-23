@@ -80,7 +80,3 @@
 
 この仕組み全体を [dotfiles-public](https://github.com/yktsnet/dotfiles-public) として公開しており、汎用 skill は Claude Code の plugin marketplace として導入できる。過程は各リポジトリの Issue と PR にそのまま残している。
 
----
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-ykts.net-5de4c7?style=flat-square)](https://ykts.net)
-[![Zenn](https://img.shields.io/badge/Zenn-yktsnet-3EA8FF?style=flat-square&logo=zenn&logoColor=white)](https://zenn.dev/yktsnet)
