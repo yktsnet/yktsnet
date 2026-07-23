@@ -17,14 +17,6 @@
     <td><a href="https://github.com/yktsnet/excel-kanri"><b>excel-kanri</b></a></td>
     <td>既存の Excel 帳票運用に Web フォーム・PDF 変換・全文検索を後付け、実顧客で稼働中</td>
   </tr>
-  <tr>
-    <td><a href="https://github.com/yktsnet/cat-feed-tracker"><b>cat-feed-tracker</b></a></td>
-    <td>給餌棚の開閉を検知して LINE 通知、Pico W + FastAPI</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/yktsnet/training-scheduler"><b>training-scheduler</b></a></td>
-    <td>新人の主観的な手応えを共有する研修支援ツール、Go + Vue 単一バイナリ</td>
-  </tr>
 </table>
 
 #### Trading Infrastructure
