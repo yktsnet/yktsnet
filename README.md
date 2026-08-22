@@ -2,7 +2,7 @@
 
 ### Translating ambiguous problems into technology that sticks in the field.
 
-After 12 years running a cram school (from founding the LLC to winding it down), I moved into engineering. I now work at an SES company, leading development standardization — CI/CD, IaC, testing, and unified documentation — as part of an engineering team on contract projects. In parallel, I serve as an external CTO for a condominium management company, driving DX on-site. Having watched tools get introduced only to fall out of use in management settings, my approach centers on leaving existing operations untouched while inserting automation behind the scenes.
+After 12 years running a cram school (from founding the LLC to winding it down), I moved into engineering. I work at a contract development firm, take on freelance projects of my own, and open-source the tooling they turn out to need. Having watched tools get introduced only to fall out of use in management settings, my approach centers on leaving existing operations untouched while inserting automation behind the scenes.
 
 ---
 
