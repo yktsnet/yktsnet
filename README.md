@@ -1,8 +1,8 @@
 [🇬🇧 English](README.md) | [🇯🇵 日本語](README.ja.md)
 
-### Translating ambiguous problems into technology that sticks in the field.
+### Find what's worth fixing in the numbers, build it without changing how people already work, and hand it over so the team can keep it running on their own.
 
-After 12 years running a cram school (from founding the LLC to winding it down), I moved into engineering. I work at a contract development firm, take on freelance projects of my own, and open-source the tooling they turn out to need. Having watched tools get introduced only to fall out of use in management settings, my approach centers on leaving existing operations untouched while inserting automation behind the scenes.
+Deciding comes from running a business, building from the shop floor, handing over from teaching. Twelve years running a cram school, and an LLC from founding through liquidation — I closed the books myself, without an accountant, so I can read where the money moves in a business. Now I work at a contract development firm, take on freelance projects of my own, and open-source the tooling they turn out to need.
 
 ---
 
