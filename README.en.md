@@ -8,18 +8,18 @@ Deciding comes from running a business, building from the shop floor, handing ov
 
 ### Works
 
-| Repository | Description | Category | Tag |
-| --- | --- | --- | --- |
-| [nfc-attendance-kit](https://github.com/yktsnet/nfc-attendance-kit) | Auto-aggregates NFC time clock punches into a spreadsheet, running in production for a real client (−5h/month) | Production | `iot` |
-| [excel-kanri](https://github.com/yktsnet/excel-kanri) | Adds web forms, PDF conversion, and full-text search to existing Excel paperwork, in production for a real client | Production | `modernization` |
-| [bt-lab](https://github.com/yktsnet/bt-lab) | An 8-stage pipeline that cross-validates strategy candidates and selects them by drawdown and Recovery Factor | Trading | `trading` |
-| [bt-dynamic](https://github.com/yktsnet/bt-dynamic) | A backtesting core that switches regimes across 9 cells (trend strength × volatility), distributed on PyPI | Trading | `package` |
-| [live-dynamic](https://github.com/yktsnet/live-dynamic) | Runs validated strategies live and unattended on the same config, with idempotent order gating, OCO, and kill switches | Trading | `trading` |
-| [folio-agent](https://github.com/yktsnet/folio-agent) | A CAG-style portfolio chat that bundles all knowledge inline, published on npm and running on Cloudflare Workers | Tools | `chatbot` |
-| [order-system-migration](https://github.com/yktsnet/order-system-migration) | Migrated a legacy WinForms app to .NET 10 Web API + React and integrated an AI agent into it | Migration & AI | `modernization` |
-| [attendance-system-migration](https://github.com/yktsnet/attendance-system-migration) | Migrated a legacy WebForms app to .NET 10 + React, adding real-time monitoring via SignalR | Migration & AI | `modernization` |
-| [order-system-rag](https://github.com/yktsnet/order-system-rag) | Structures paperwork PDFs and automatically routes questions between Text-to-SQL and RAG based on their nature | Migration & AI | `chatbot` |
-| [wiki-guessur](https://github.com/yktsnet/wiki-guessur) | A benchmark for identifying Wikipedia articles with their definitions removed, measuring MRR over 4 methods × 5 seeds | Research | — |
+| Repository | Description | Tag |
+| --- | --- | --- |
+| [nfc-attendance-kit](https://github.com/yktsnet/nfc-attendance-kit) | Auto-aggregates NFC time clock punches into a spreadsheet, running in production for a real client (−5h/month) | `iot` |
+| [excel-kanri](https://github.com/yktsnet/excel-kanri) | Adds web forms, PDF conversion, and full-text search to existing Excel paperwork, in production for a real client | `modernization` |
+| [order-system-migration](https://github.com/yktsnet/order-system-migration) | Migrated a legacy WinForms app to .NET 10 Web API + React and integrated an AI agent into it | `modernization` |
+| [attendance-system-migration](https://github.com/yktsnet/attendance-system-migration) | Migrated a legacy WebForms app to .NET 10 + React, adding real-time monitoring via SignalR | `modernization` |
+| [order-system-rag](https://github.com/yktsnet/order-system-rag) | Structures paperwork PDFs and automatically routes questions between Text-to-SQL and RAG based on their nature | `chatbot` |
+| [folio-agent](https://github.com/yktsnet/folio-agent) | A CAG-style portfolio chat that bundles all knowledge inline, published on npm and running on Cloudflare Workers | `chatbot` |
+| [sdlc-kit](https://github.com/yktsnet/sdlc-kit) | A distribution kit that imports a solo-hardened dev process into team repos in one command | `team` |
+| [ladder-kit](https://github.com/yktsnet/ladder-kit) | An engineer ladder for teams developing with AI agents, putting evaluation and hiring on one 5×5 scale | `team` |
+| [live-dynamic](https://github.com/yktsnet/live-dynamic) | Runs validated strategies live and unattended on the same config, with idempotent order gating, OCO, and kill switches | `trading` |
+| [etax-prep](https://github.com/yktsnet/etax-prep) | A ledger for salaried workers with side-business income: enter amounts and accounts, get totals ready for tax filing | `finance` |
 
 ---
 

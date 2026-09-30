@@ -8,18 +8,18 @@
 
 ### Works
 
-| Repository | Description | Category | Tag |
-| --- | --- | --- | --- |
-| [nfc-attendance-kit](https://github.com/yktsnet/nfc-attendance-kit) | NFC 打刻をスプレッドシートに自動集計、実顧客で稼働中（月次工数 −5h） | Production | `iot` |
-| [excel-kanri](https://github.com/yktsnet/excel-kanri) | Excel 帳票運用に Web フォーム・PDF 変換・全文検索を後付け、実顧客で稼働中 | Production | `modernization` |
-| [bt-lab](https://github.com/yktsnet/bt-lab) | 戦略候補を横断検証し、ドローダウンと Recovery Factor で自動選抜する8段パイプライン | Trading | `trading` |
-| [bt-dynamic](https://github.com/yktsnet/bt-dynamic) | トレンド強度×ボラティリティの9セルでレジームを切り替えるバックテストコア、PyPI 配布 | Trading | `package` |
-| [live-dynamic](https://github.com/yktsnet/live-dynamic) | 検証済み戦略を同じ config で無人実弾運転する実行層。冪等な発注ゲート・OCO・キルスイッチを実装 | Trading | `trading` |
-| [folio-agent](https://github.com/yktsnet/folio-agent) | 知識を全同梱する CAG 方式のポートフォリオチャット、npm 公開・Cloudflare Workers | Tools | `chatbot` |
-| [order-system-migration](https://github.com/yktsnet/order-system-migration) | WinForms を .NET 10 Web API + React へ移行し、AI エージェントを統合 | Migration & AI | `modernization` |
-| [attendance-system-migration](https://github.com/yktsnet/attendance-system-migration) | WebForms を .NET 10 + React へ移行し、SignalR でリアルタイム監視を実装 | Migration & AI | `modernization` |
-| [order-system-rag](https://github.com/yktsnet/order-system-rag) | 帳票 PDF を構造化し、質問の性質で Text-to-SQL / RAG を自動振り分け | Migration & AI | `chatbot` |
-| [wiki-guessur](https://github.com/yktsnet/wiki-guessur) | 定義文を消した Wikipedia 記事の同定ベンチマーク。4手法 × 5シードで MRR を実測 | Research | — |
+| Repository | Description | Tag |
+| --- | --- | --- |
+| [nfc-attendance-kit](https://github.com/yktsnet/nfc-attendance-kit) | NFC 打刻をスプレッドシートに自動集計、実顧客で稼働中（月次工数 −5h） | `iot` |
+| [excel-kanri](https://github.com/yktsnet/excel-kanri) | Excel 帳票運用に Web フォーム・PDF 変換・全文検索を後付け、実顧客で稼働中 | `modernization` |
+| [order-system-migration](https://github.com/yktsnet/order-system-migration) | WinForms を .NET 10 Web API + React へ移行し、AI エージェントを統合 | `modernization` |
+| [attendance-system-migration](https://github.com/yktsnet/attendance-system-migration) | WebForms を .NET 10 + React へ移行し、SignalR でリアルタイム監視を実装 | `modernization` |
+| [order-system-rag](https://github.com/yktsnet/order-system-rag) | 帳票 PDF を構造化し、質問の性質で Text-to-SQL / RAG を自動振り分け | `chatbot` |
+| [folio-agent](https://github.com/yktsnet/folio-agent) | 知識を全同梱する CAG 方式のポートフォリオチャット、npm 公開・Cloudflare Workers | `chatbot` |
+| [sdlc-kit](https://github.com/yktsnet/sdlc-kit) | 1人で固めた開発の型を、チームのリポジトリへ1コマンドで取り込める配布キット | `team` |
+| [ladder-kit](https://github.com/yktsnet/ladder-kit) | エージェントで開発を回すチームの評価ラダー。5軸5段階で評価と採用を1本の物差しに乗せる | `team` |
+| [live-dynamic](https://github.com/yktsnet/live-dynamic) | 検証済み戦略を同じ config で無人実弾運転する実行層。冪等な発注ゲート・OCO・キルスイッチを実装 | `trading` |
+| [etax-prep](https://github.com/yktsnet/etax-prep) | 給与と副業の事業所得を合算する帳簿。金額と勘定科目の入力だけで確定申告用の集計まで出す | `finance` |
 
 ---
 
