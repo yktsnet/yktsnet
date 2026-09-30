@@ -8,70 +8,18 @@
 
 ### Works
 
-#### Production
-
-<table>
-  <tr>
-    <td><a href="https://github.com/yktsnet/nfc-attendance-kit"><b>nfc-attendance-kit</b></a></td>
-    <td>NFC 打刻をスプレッドシートに自動集計、実顧客で稼働中（月次工数 −5h）</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/yktsnet/excel-kanri"><b>excel-kanri</b></a></td>
-    <td>既存の Excel 帳票運用に Web フォーム・PDF 変換・全文検索を後付け、実顧客で稼働中</td>
-  </tr>
-</table>
-
-#### Trading Infrastructure
-
-<table>
-  <tr>
-    <td><a href="https://github.com/yktsnet/bt-lab"><b>bt-lab</b></a></td>
-    <td>複数戦略候補を横断検証し、ドローダウンや Recovery Factor で自動選抜する8段パイプライン</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/yktsnet/bt-dynamic"><b>bt-dynamic</b></a></td>
-    <td>相場を9セル（トレンド強度×ボラティリティ）でレジーム切替するバックテストコア、PyPI 配布</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/yktsnet/live-dynamic"><b>live-dynamic</b></a></td>
-    <td>検証済み戦略を同一 config のまま systemd timer で無人実弾運転する実行層。冪等な発注ゲート・OCO・キルスイッチの安全設計を参照実装として公開</td>
-  </tr>
-</table>
-
-#### Libraries & Tools
-
-<table>
-  <tr>
-    <td><a href="https://github.com/yktsnet/folio-agent"><b>folio-agent</b></a></td>
-    <td>知識を全同梱する CAG 方式のポートフォリオチャット、npm 公開・Cloudflare Workers</td>
-  </tr>
-</table>
-
-#### Legacy Migration & AI
-
-<table>
-  <tr>
-    <td><a href="https://github.com/yktsnet/order-system-migration"><b>order-system-migration</b></a></td>
-    <td>WinForms を .NET 10 Web API + React へ移行し、AI エージェントを統合</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/yktsnet/attendance-system-migration"><b>attendance-system-migration</b></a></td>
-    <td>WebForms を .NET 10 + React へ移行し、SignalR でリアルタイム監視を実装</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/yktsnet/order-system-rag"><b>order-system-rag</b></a></td>
-    <td>帳票 PDF を構造化し、質問の性質で Text-to-SQL / RAG を自動振り分け</td>
-  </tr>
-</table>
-
-#### Research
-
-<table>
-  <tr>
-    <td><a href="https://github.com/yktsnet/wiki-guessur"><b>wiki-guessur</b></a></td>
-    <td>定義文を消した Wikipedia 記事の同定ベンチマーク。数式 / GBDT / LLM 再判定の4手法 × 5シードで MRR を実測</td>
-  </tr>
-</table>
+| Repository | Description | Category | Language |
+| --- | --- | --- | --- |
+| [nfc-attendance-kit](https://github.com/yktsnet/nfc-attendance-kit) | NFC 打刻をスプレッドシートに自動集計、実顧客で稼働中（月次工数 −5h） | Production | Python |
+| [excel-kanri](https://github.com/yktsnet/excel-kanri) | 既存の Excel 帳票運用に Web フォーム・PDF 変換・全文検索を後付け、実顧客で稼働中 | Production | Python |
+| [bt-lab](https://github.com/yktsnet/bt-lab) | 複数戦略候補を横断検証し、ドローダウンや Recovery Factor で自動選抜する8段パイプライン | Trading | Python |
+| [bt-dynamic](https://github.com/yktsnet/bt-dynamic) | 相場を9セル（トレンド強度×ボラティリティ）でレジーム切替するバックテストコア、PyPI 配布 | Trading | Python |
+| [live-dynamic](https://github.com/yktsnet/live-dynamic) | 検証済み戦略を同一 config のまま systemd timer で無人実弾運転する実行層。冪等な発注ゲート・OCO・キルスイッチの安全設計を参照実装として公開 | Trading | Python |
+| [folio-agent](https://github.com/yktsnet/folio-agent) | 知識を全同梱する CAG 方式のポートフォリオチャット、npm 公開・Cloudflare Workers | Tools | TypeScript |
+| [order-system-migration](https://github.com/yktsnet/order-system-migration) | WinForms を .NET 10 Web API + React へ移行し、AI エージェントを統合 | Migration & AI | C# |
+| [attendance-system-migration](https://github.com/yktsnet/attendance-system-migration) | WebForms を .NET 10 + React へ移行し、SignalR でリアルタイム監視を実装 | Migration & AI | C# |
+| [order-system-rag](https://github.com/yktsnet/order-system-rag) | 帳票 PDF を構造化し、質問の性質で Text-to-SQL / RAG を自動振り分け | Migration & AI | Python |
+| [wiki-guessur](https://github.com/yktsnet/wiki-guessur) | 定義文を消した Wikipedia 記事の同定ベンチマーク。数式 / GBDT / LLM 再判定の4手法 × 5シードで MRR を実測 | Research | Python |
 
 ---
 

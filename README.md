@@ -8,70 +8,18 @@ Deciding comes from running a business, building from the shop floor, handing ov
 
 ### Works
 
-#### Production
-
-<table>
-  <tr>
-    <td><a href="https://github.com/yktsnet/nfc-attendance-kit"><b>nfc-attendance-kit</b></a></td>
-    <td>Auto-aggregates NFC time clock punches into a spreadsheet, running in production for a real client (−5h/month)</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/yktsnet/excel-kanri"><b>excel-kanri</b></a></td>
-    <td>Retrofits existing Excel-based paperwork operations with a web form, PDF conversion, and full-text search, running in production for a real client</td>
-  </tr>
-</table>
-
-#### Trading Infrastructure
-
-<table>
-  <tr>
-    <td><a href="https://github.com/yktsnet/bt-lab"><b>bt-lab</b></a></td>
-    <td>An 8-stage pipeline that cross-validates multiple strategy candidates and automatically selects among them by drawdown and Recovery Factor</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/yktsnet/bt-dynamic"><b>bt-dynamic</b></a></td>
-    <td>A backtesting core that switches regimes across 9 cells (trend strength × volatility), distributed on PyPI</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/yktsnet/live-dynamic"><b>live-dynamic</b></a></td>
-    <td>An execution layer that runs validated strategies unattended via systemd timer with the same config, live. Published as a reference implementation for safety design covering idempotent order gating, OCO, and kill switches</td>
-  </tr>
-</table>
-
-#### Libraries & Tools
-
-<table>
-  <tr>
-    <td><a href="https://github.com/yktsnet/folio-agent"><b>folio-agent</b></a></td>
-    <td>A CAG-style portfolio chat that bundles all knowledge inline, published on npm and running on Cloudflare Workers</td>
-  </tr>
-</table>
-
-#### Legacy Migration & AI
-
-<table>
-  <tr>
-    <td><a href="https://github.com/yktsnet/order-system-migration"><b>order-system-migration</b></a></td>
-    <td>Migrated WinForms to .NET 10 Web API + React, with an integrated AI agent</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/yktsnet/attendance-system-migration"><b>attendance-system-migration</b></a></td>
-    <td>Migrated WebForms to .NET 10 + React, with real-time monitoring via SignalR</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/yktsnet/order-system-rag"><b>order-system-rag</b></a></td>
-    <td>Structures paperwork PDFs and automatically routes questions between Text-to-SQL and RAG based on their nature</td>
-  </tr>
-</table>
-
-#### Research
-
-<table>
-  <tr>
-    <td><a href="https://github.com/yktsnet/wiki-guessur"><b>wiki-guessur</b></a></td>
-    <td>A benchmark for identifying Wikipedia articles with their defining sentences removed. Measures MRR across 4 methods (formula / GBDT / LLM re-ranking) × 5 seeds</td>
-  </tr>
-</table>
+| Repository | Description | Category | Language |
+| --- | --- | --- | --- |
+| [nfc-attendance-kit](https://github.com/yktsnet/nfc-attendance-kit) | Auto-aggregates NFC time clock punches into a spreadsheet, running in production for a real client (−5h/month) | Production | Python |
+| [excel-kanri](https://github.com/yktsnet/excel-kanri) | Retrofits existing Excel-based paperwork operations with a web form, PDF conversion, and full-text search, running in production for a real client | Production | Python |
+| [bt-lab](https://github.com/yktsnet/bt-lab) | An 8-stage pipeline that cross-validates multiple strategy candidates and automatically selects among them by drawdown and Recovery Factor | Trading | Python |
+| [bt-dynamic](https://github.com/yktsnet/bt-dynamic) | A backtesting core that switches regimes across 9 cells (trend strength × volatility), distributed on PyPI | Trading | Python |
+| [live-dynamic](https://github.com/yktsnet/live-dynamic) | An execution layer that runs validated strategies unattended via systemd timer with the same config, live. Published as a reference implementation for safety design covering idempotent order gating, OCO, and kill switches | Trading | Python |
+| [folio-agent](https://github.com/yktsnet/folio-agent) | A CAG-style portfolio chat that bundles all knowledge inline, published on npm and running on Cloudflare Workers | Tools | TypeScript |
+| [order-system-migration](https://github.com/yktsnet/order-system-migration) | Migrated WinForms to .NET 10 Web API + React, with an integrated AI agent | Migration & AI | C# |
+| [attendance-system-migration](https://github.com/yktsnet/attendance-system-migration) | Migrated WebForms to .NET 10 + React, with real-time monitoring via SignalR | Migration & AI | C# |
+| [order-system-rag](https://github.com/yktsnet/order-system-rag) | Structures paperwork PDFs and automatically routes questions between Text-to-SQL and RAG based on their nature | Migration & AI | Python |
+| [wiki-guessur](https://github.com/yktsnet/wiki-guessur) | A benchmark for identifying Wikipedia articles with their defining sentences removed. Measures MRR across 4 methods (formula / GBDT / LLM re-ranking) × 5 seeds | Research | Python |
 
 ---
 
