@@ -1,32 +1,32 @@
-[🇬🇧 English](README.md) | [🇯🇵 日本語](README.ja.md)
+[🇯🇵 日本語](README.md) | [🇬🇧 English](README.en.md)
 
-### Find what's worth fixing in the numbers, build it without changing how people already work, and hand it over so the team can keep it running on their own.
+### 事業の数字から直すべきものを決め、現場のやり方を変えずに作り、人が回せる形にして渡して残す。
 
-Deciding comes from running a business, building from the shop floor, handing over from teaching. Twelve years running a cram school, and an LLC from founding through liquidation — I closed the books myself, without an accountant, so I can read where the money moves in a business. Now I work at a contract development firm, take on freelance projects of my own, and open-source the tooling they turn out to need.
+決めるところは経営から、作るところは現場から、渡すところは教育から来ている。学習塾を12年、合同会社を設立から清算まで。税理士を立てず決算まで見ていたので、事業の金がどこを通っているかを自分で読める。いまは受託開発の会社に勤めつつ、個人でも受託を受け、必要になった仕組みを OSS にしている。
 
 ---
 
 ### Works
 
-| Repository | Description | Category | Language |
+| Repository | Description | Category | Tag |
 | --- | --- | --- | --- |
-| [nfc-attendance-kit](https://github.com/yktsnet/nfc-attendance-kit) | Auto-aggregates NFC time clock punches into a spreadsheet, running in production for a real client (−5h/month) | Production | Python |
-| [excel-kanri](https://github.com/yktsnet/excel-kanri) | Retrofits existing Excel-based paperwork operations with a web form, PDF conversion, and full-text search, running in production for a real client | Production | Python |
-| [bt-lab](https://github.com/yktsnet/bt-lab) | An 8-stage pipeline that cross-validates multiple strategy candidates and automatically selects among them by drawdown and Recovery Factor | Trading | Python |
-| [bt-dynamic](https://github.com/yktsnet/bt-dynamic) | A backtesting core that switches regimes across 9 cells (trend strength × volatility), distributed on PyPI | Trading | Python |
-| [live-dynamic](https://github.com/yktsnet/live-dynamic) | An execution layer that runs validated strategies unattended via systemd timer with the same config, live. Published as a reference implementation for safety design covering idempotent order gating, OCO, and kill switches | Trading | Python |
-| [folio-agent](https://github.com/yktsnet/folio-agent) | A CAG-style portfolio chat that bundles all knowledge inline, published on npm and running on Cloudflare Workers | Tools | TypeScript |
-| [order-system-migration](https://github.com/yktsnet/order-system-migration) | Migrated WinForms to .NET 10 Web API + React, with an integrated AI agent | Migration & AI | C# |
-| [attendance-system-migration](https://github.com/yktsnet/attendance-system-migration) | Migrated WebForms to .NET 10 + React, with real-time monitoring via SignalR | Migration & AI | C# |
-| [order-system-rag](https://github.com/yktsnet/order-system-rag) | Structures paperwork PDFs and automatically routes questions between Text-to-SQL and RAG based on their nature | Migration & AI | Python |
-| [wiki-guessur](https://github.com/yktsnet/wiki-guessur) | A benchmark for identifying Wikipedia articles with their defining sentences removed. Measures MRR across 4 methods (formula / GBDT / LLM re-ranking) × 5 seeds | Research | Python |
+| [nfc-attendance-kit](https://github.com/yktsnet/nfc-attendance-kit) | NFC 打刻をスプレッドシートに自動集計、実顧客で稼働中（月次工数 −5h） | Production | `iot` |
+| [excel-kanri](https://github.com/yktsnet/excel-kanri) | Excel 帳票運用に Web フォーム・PDF 変換・全文検索を後付け、実顧客で稼働中 | Production | `modernization` |
+| [bt-lab](https://github.com/yktsnet/bt-lab) | 戦略候補を横断検証し、ドローダウンと Recovery Factor で自動選抜する8段パイプライン | Trading | `trading` |
+| [bt-dynamic](https://github.com/yktsnet/bt-dynamic) | トレンド強度×ボラティリティの9セルでレジームを切り替えるバックテストコア、PyPI 配布 | Trading | `package` |
+| [live-dynamic](https://github.com/yktsnet/live-dynamic) | 検証済み戦略を同じ config で無人実弾運転する実行層。冪等な発注ゲート・OCO・キルスイッチを実装 | Trading | `trading` |
+| [folio-agent](https://github.com/yktsnet/folio-agent) | 知識を全同梱する CAG 方式のポートフォリオチャット、npm 公開・Cloudflare Workers | Tools | `chatbot` |
+| [order-system-migration](https://github.com/yktsnet/order-system-migration) | WinForms を .NET 10 Web API + React へ移行し、AI エージェントを統合 | Migration & AI | `modernization` |
+| [attendance-system-migration](https://github.com/yktsnet/attendance-system-migration) | WebForms を .NET 10 + React へ移行し、SignalR でリアルタイム監視を実装 | Migration & AI | `modernization` |
+| [order-system-rag](https://github.com/yktsnet/order-system-rag) | 帳票 PDF を構造化し、質問の性質で Text-to-SQL / RAG を自動振り分け | Migration & AI | `chatbot` |
+| [wiki-guessur](https://github.com/yktsnet/wiki-guessur) | 定義文を消した Wikipedia 記事の同定ベンチマーク。4手法 × 5シードで MRR を実測 | Research | — |
 
 ---
 
 ### How I build
 
-Development runs in two phases. In the startup phase, spec documents (PLAN.md / JUDGE.md) drive development, then get distilled into the README at release and retire. In the maintenance phase, the driving documents hand off to a guarantee ledger (guarantees.md) — humans authorize only "what must never break," while AI and CI own test implementation and enforcement (Guarantee-Driven Development).
+開発は2フェーズで回している。立ち上げ期は仕様書（PLAN.md / JUDGE.md）が開発を駆動し、リリース時に README へ昇華して役目を終える。保守期は駆動文書を保証台帳（guarantees.md）へ交代させ、「何が壊れてはいけないか」だけを人間が裁可し、テストの実装と執行は AI と CI に任せる（Guarantee-Driven Development）。
 
-The execution mechanism is issue-driven, separating design (conversational AI), implementation (autonomous AI), and authorization/verification (human merge). Dangerous operations are blocked not by operational rules but by `deny` entries in `.claude/settings.json`, and the execution environment is declaratively unified with Nix Flakes and continuously verified in CI.
+実行機構は、設計（対話型 AI）・実装（自律型 AI）・裁可と検証（人間のマージ）を分けた Issue 駆動。危険な操作は運用ルールではなく `.claude/settings.json` の deny で遮断し、実行環境は Nix Flakes で宣言的に統一して CI で検証し続けている。
 
-This entire system is published as [dotfiles-public](https://github.com/yktsnet/dotfiles-public), and the general-purpose skills can be installed as a Claude Code plugin marketplace. The process is left as-is in each repository's issues and PRs.
+この仕組み全体を [dotfiles-public](https://github.com/yktsnet/dotfiles-public) として公開しており、汎用 skill は Claude Code の plugin marketplace として導入できる。過程は各リポジトリの Issue と PR にそのまま残している。
