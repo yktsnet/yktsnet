@@ -29,4 +29,4 @@
 
 実行機構は、設計（対話型 AI）・実装（自律型 AI）・裁可と検証（人間のマージ）を分けた Issue 駆動。危険な操作は運用ルールではなく `.claude/settings.json` の deny で遮断し、実行環境は Nix Flakes で宣言的に統一して CI で検証し続けている。
 
-この仕組み全体を [dotfiles-public](https://github.com/yktsnet/dotfiles-public) として公開しており、汎用 skill は Claude Code の plugin marketplace として導入できる。過程は各リポジトリの Issue と PR にそのまま残している。
+この仕組み全体を [dotfiles-public](https://github.com/yktsnet/dotfiles-public) として公開しており、skill もそこにある。過程は各リポジトリの Issue と PR にそのまま残している。

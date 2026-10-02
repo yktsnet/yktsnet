@@ -29,4 +29,4 @@ Development runs in two phases. In the startup phase, spec documents (PLAN.md / 
 
 The execution mechanism is issue-driven, separating design (conversational AI), implementation (autonomous AI), and authorization/verification (human merge). Dangerous operations are blocked not by operational rules but by `deny` entries in `.claude/settings.json`, and the execution environment is declaratively unified with Nix Flakes and continuously verified in CI.
 
-This entire system is published as [dotfiles-public](https://github.com/yktsnet/dotfiles-public), and the general-purpose skills can be installed as a Claude Code plugin marketplace. The process is left as-is in each repository's issues and PRs.
+This entire system is published as [dotfiles-public](https://github.com/yktsnet/dotfiles-public), skills included. The process is left as-is in each repository's issues and PRs.
